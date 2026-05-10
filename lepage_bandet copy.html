@@ -73,7 +73,7 @@
       .append("g")
       .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-    d3.json("family.json", function (error, root) {
+    d3.json("family_brigitte.json", function (error, root) {
       if (error) throw error;
 
       var nodes = tree.nodes(root),
