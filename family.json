@@ -106,12 +106,8 @@
                     "children": [
                         {
                             "born": 4,
-                            "firstname": "Gaspard & Marie"
-                        },
-                        {
-                            "born": 4,
-                            "firstname": "Marie & Jean",
-                            "children": [
+                            "firstname": "Gaspard & Marie",
+			    "children": [
                                 {
                                     "born": 5,
                                     "firstname": "Isaure"
@@ -119,7 +115,13 @@
                                 {
                                     "born": 5,
                                     "firstname": "Eugène"
-                                },
+                                }
+			    ]
+                        },
+                        {
+                            "born": 4,
+                            "firstname": "Marie & Jean",
+                            "children": [
                                 {
                                     "born": 5,
                                     "firstname": "Auguste"
@@ -132,7 +134,17 @@
                         },
                         {
                             "born": 4,
-                            "firstname": "Pauline & Martin"
+                            "firstname": "Martin & Pauline",
+                            "children": [
+                                {
+                                    "born": 5,
+                                    "firstname": "Madeleine"
+                                },
+                                {
+                                    "born": 5,
+                                    "firstname": "Joséphine"
+                                }
+                            ]
                         },
                         {
                             "born": 4,
@@ -336,7 +348,7 @@
                             "children": [
                                 {
                                     "born": 5,
-                                    "firstname": "Tao"
+                                    "firstname": "Taho"
                                 },
                                 {
                                     "born": 5,
@@ -344,17 +356,21 @@
                                 },
                                 {
                                     "born": 5,
-                                    "firstname": "Noha"
+                                    "firstname": "Noah"
                                 },
                                 {
                                     "born": 5,
-                                    "firstname": "Sacha"
+                                    "firstname": "Sasha"
                                 }
                             ]
                         },
                         {
                             "born": 4,
                             "firstname": "Alexandra"
+                        },
+                        {
+                            "born": 4,
+                            "firstname": "Matthias"
                         }
                     ]
                 },
@@ -369,10 +385,6 @@
                                 {
                                     "born": 5,
                                     "firstname": "Jacques"
-                                },
-                                {
-                                    "born": 5,
-                                    "firstname": "un petit en août"
                                 }
                             ]
                         },
@@ -382,7 +394,7 @@
                             "children": [
                                 {
                                     "born": 5,
-                                    "firstname": "une petite fille"
+                                    "firstname": "Bianca"
                                 }
                             ]
                         },
@@ -392,7 +404,7 @@
                             "children": [
                                 {
                                     "born": 5,
-                                    "firstname": "une petite fille en avril"
+                                    "firstname": "Constance"
                                 }
                             ]
                         }
@@ -406,11 +418,11 @@
         },
         {
             "born": 2,
-            "firstname": "Colette & Francis\nDemester",
+            "firstname": "Colette & Francis\nDemeestère",
             "children": [
                 {
                     "born": 3,
-                    "firstname": "Blandine & Godefroy\nde Noyelle",
+                    "firstname": "Blandine & Godefroy\n Denoyelle",
                     "children": [
                         {
                             "born": 4,
@@ -484,7 +496,7 @@
                 },
                 {
                     "born": 3,
-                    "firstname": "Séverine & Fabien\nDupré",
+                    "firstname": "Séverine & Fabien\nDuprez",
                     "children": [
                         {
                             "born": 4,
@@ -520,7 +532,7 @@
                         },
                         {
                             "born": 4,
-                            "firstname": "Alexis"
+                            "firstname": "Alexi"
                         }
                     ]
                 },
@@ -534,11 +546,11 @@
                     "children": [
                         {
                             "born": 4,
-                            "firstname": "Thibault"
+                            "firstname": "Thibaut"
                         },
                         {
                             "born": 4,
-                            "firstname": "Mattis"
+                            "firstname": "Mathis"
                         },
                         {
                             "born": 4,
@@ -570,7 +582,7 @@
                                 },
                                 {
                                     "born": 5,
-                                    "firstname": "+1"
+                                    "firstname": "Inès"
                                 }
                             ]
                         },

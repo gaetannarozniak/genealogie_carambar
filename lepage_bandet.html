@@ -45,7 +45,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
   <script>
 
-    var diameter = 1200;
+    var diameter = 1000;
 
     function yearToY(year) { return (year - 1) * 110; }
     function getY(d) {
@@ -111,14 +111,17 @@
         .attr("class", "node")
         .attr("transform", function (d) { return "rotate(" + (d.x - 90) + ")translate(" + getY(d) + ")"; })
 
-      var c = d3.scale.category10();
+      var colors = ["black", "gold", "orange", "hotpink", "dodgerblue"];
       node.append("circle")
         .attr("r", 4.5)
-        .attr("stroke", function (d) { return c(d.depth) });
+        .attr("stroke", function (d) { return colors[d.born - 1] || "grey" });
       var text = node.append("text")
         .attr("dy", ".31em")
-        .attr("text-anchor", function (d) { return d.x < 180 ? "start" : "end"; })
+        .attr("text-anchor", function (d) { return d.depth === 0 ? "start" : (d.x < 180 ? "start" : "end"); })
         .attr("transform", function (d) {
+          if (d.depth === 0) {
+            return "rotate(" + (90 - d.x) + ")translate(14)";
+          }
           return d.x < 180
             ? "translate(8)"
             : "rotate(180)translate(-8)";
