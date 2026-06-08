@@ -120,7 +120,7 @@
                         },
                         {
                             "born": 4,
-                            "firstname": "Marie & Jean-Valère Alard",
+                            "firstname": "Marie & Jean-Valère\n Alard",
                             "children": [
                                 {
                                     "born": 5,
