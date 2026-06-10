@@ -78,7 +78,7 @@
                         },
                         {
                             "born": 4,
-                            "firstname": "Alex",
+                            "firstname": "Alex & Stéphanie",
                             "children": [
                                 {
                                     "born": 5,
@@ -120,7 +120,7 @@
                         },
                         {
                             "born": 4,
-                            "firstname": "Marie & Jean-Valère\n Alard",
+                            "firstname": "Marie & Jean-Valère\nAlard",
                             "children": [
                                 {
                                     "born": 5,
@@ -187,6 +187,10 @@
                                 {
                                     "born": 5,
                                     "firstname": "Basile"
+                                },
+                                {
+                                    "born": 5,
+                                    "firstname": "Madeleine"
                                 }
                             ]
                         },
@@ -201,6 +205,10 @@
                                 {
                                     "born": 5,
                                     "firstname": "Igor"
+                                },
+                                {
+                                    "born": 5,
+                                    "firstname": "Hélie †"
                                 }
                             ]
                         }
@@ -340,7 +348,7 @@
                 },
                 {
                     "born": 3,
-                    "firstname": "Thierry & Murielle",
+                    "firstname": "Thierry & Muriel",
                     "children": [
                         {
                             "born": 4,
